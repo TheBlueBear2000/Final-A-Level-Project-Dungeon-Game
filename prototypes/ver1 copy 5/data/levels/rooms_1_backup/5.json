@@ -1,0 +1,63 @@
+{
+    "id":5,
+    "doors": {
+        "left": {"type": "local_kill_count", "complete": false, "num": 8, "colour": null},
+        "right": {"type": "local_kill_count", "complete": false, "num": 8, "colour": null},
+        "up": null,
+        "down": {"type": "local_kill_count", "complete": false, "num": 8, "colour": null}
+    },
+    "squares": [
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 1], 
+        [1, 0, 0, 0, 1, 0, 0, 0, 0, 1], 
+        [1, 0, 4, 0, 1, 0, 0, 0, 0, 1], 
+        [7, 0, 0, 1, 1, 2, 0, 0, 0, 7], 
+        [7, 0, 0, 0, 2, 1, 1, 0, 0, 7], 
+        [1, 0, 0, 0, 0, 1, 0, 4, 0, 1], 
+        [1, 0, 0, 0, 0, 1, 0, 0, 0, 1], 
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 1], 
+        [1, 1, 1, 1, 7, 7, 1, 1, 1, 1]
+    ],
+    "entities": [
+        {"name": "goblin",
+        "x": 8,
+        "y": 4
+        },
+        {"name": "goblin",
+        "x": 3,
+        "y": 6
+        },
+        {"name": "goblin",
+        "x": 2,
+        "y": 8
+        },
+        {"name": "goblin",
+        "x": 5,
+        "y": 8
+        },
+        {"name": "goblin",
+        "x": 4,
+        "y": 5
+        },
+        {"name": "goblin",
+        "x": 6,
+        "y": 3,
+        "drops": [{"rolls": 1,
+                    "total": 1,
+                    "drops": [{
+                        "item": "key",
+                        "payload": {"colour": [255, 255, 150, 100]},
+                        "chance": 1
+                        }]
+                    }]
+        },
+        {"name": "goblin",
+        "x": 1,
+        "y": 2
+        },
+        {"name": "goblin",
+        "x": 3,
+        "y": 5
+        }
+    ]
+}

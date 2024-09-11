@@ -1,0 +1,28 @@
+[
+    {"name": "air",
+    "collidable": false,
+    "textures": ["air"]
+    },
+
+    {"name": "rock",
+    "breakable": false,
+    "textures": ["rock"]
+    },
+
+    {"name": "vase",
+    "collidable": false,
+    "break_animation": true,
+    "textures": ["vase"],
+    "strength": 2,
+    "has_drops": true,
+
+    "drops": [{"rolls": 1,
+                "total": 1,
+                "drops": [{
+                    "item": "stick_sword",
+                    "chance": 1
+                    }]
+                }]
+    }
+
+]

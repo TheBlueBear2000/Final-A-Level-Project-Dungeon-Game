@@ -1,0 +1,16 @@
+{
+    "name": "None",
+    "basic": true,
+    "collidable": true,
+    "animated": false,
+    "break_animation": false,
+    "textures": ["air"],
+    "breakable": true,
+    "strength": 20,
+    "has_drops": false,
+    "collision_size": [1,1],
+    "relative_top_left": [0,0],
+    "transparent": false,
+    "size": [1,1],
+    "texture_pos": [0,0]
+}

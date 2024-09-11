@@ -1,0 +1,12 @@
+[
+    {"name": "air",
+    "collidable": false,
+    "textures": ["air"]
+    },
+
+    {"name": "rock",
+    "breakable": false,
+    "textures": ["rock"]
+    }
+
+]

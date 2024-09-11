@@ -1,0 +1,30 @@
+{
+    "volume":{
+        "master_volume": 1,
+        "enemy_volume": 0.5,
+        "player_volume": 0.5,
+        "menu_volume": 0.5,
+        "music": 0.5
+    },
+
+    "key_bindings":{
+        "119": "up",
+        "115": "down",
+        "97": "left",
+        "100": "right",
+        "102": "inventory",
+        "101": "switch_hand",
+        "1073742049": "sprint",
+        "112": "pause",
+        "49": "main_hand",
+        "50": "off_hand",
+        "32": "boost",
+        "L_CLICK": "attack"
+    },
+
+    "max_FPS": 30,
+
+    "mini_map_displayed": true,
+    "inventory_displayed": true,
+    "armour_displayed": true
+}

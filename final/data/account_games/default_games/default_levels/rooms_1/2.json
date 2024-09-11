@@ -1,0 +1,40 @@
+{
+    "id":2,
+    "doors": {
+        "left": {"type": "empty", "complete": false, "colour": null},
+        "right": {"type": "local_kill_count", "complete": false, "num": 4, "colour": null},
+        "up": {"type": "local_kill_count", "complete": false, "num": 4, "colour": null},
+        "down": {"type": "local_kill_count", "complete": false, "num": 4, "colour": null}
+        
+    },
+    "squares": [
+        [1, 1, 1, 1, 7, 7, 1, 1, 1, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 2, 1, 0, 0, 1, 0, 0, 1],
+        [1, 0, 1, 1, 0, 0, 1, 1, 0, 1],
+        [7, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+        [7, 0, 0, 0, 0, 0, 0, 0, 0, 7],
+        [1, 0, 1, 1, 0, 0, 1, 1, 0, 1],
+        [1, 0, 0, 1, 0, 0, 1, 2, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 7, 7, 1, 1, 1, 1]
+    ],
+    "entities": [
+        {"name": "goblin",
+        "x": 4,
+        "y": 4
+        },
+        {"name": "goblin",
+        "x": 4,
+        "y": 5
+        },
+        {"name": "goblin",
+        "x": 5,
+        "y": 4
+        },
+        {"name": "goblin",
+        "x": 5,
+        "y": 5
+        }
+    ]
+}

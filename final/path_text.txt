@@ -1,0 +1,231 @@
+final
+├── game_main.py
+├── main.py
+├── project_lib
+│   ├── assets
+│   │   ├── entities
+│   │   │   ├── RogueSlime32x32.png
+│   │   │   ├── crate.png
+│   │   │   ├── goblin.png
+│   │   │   └── goblin.psd
+│   │   ├── enviroment
+│   │   │   ├── RogueEnvironment16x16.png
+│   │   │   └── containers
+│   │   │       └── vase.png
+│   │   ├── items
+│   │   │   ├── RogueItems16x16.png
+│   │   │   ├── chain_chest.png
+│   │   │   ├── chain_feet.png
+│   │   │   ├── chain_head.png
+│   │   │   ├── dagger.png
+│   │   │   ├── key.png
+│   │   │   ├── long_sword.png
+│   │   │   ├── mace.png
+│   │   │   ├── metal_axe.png
+│   │   │   ├── metal_chest.png
+│   │   │   ├── metal_feet.png
+│   │   │   ├── metal_head.png
+│   │   │   ├── stick.png
+│   │   │   ├── wood_chest.png
+│   │   │   ├── wood_feet.png
+│   │   │   └── wood_head.png
+│   │   ├── menu
+│   │   │   ├── buttons
+│   │   │   │   ├── ratio1-1.0.png
+│   │   │   │   ├── ratio1-2.0.png
+│   │   │   │   ├── ratio1-3.0.png
+│   │   │   │   └── ratio1-6.0.png
+│   │   │   ├── icons
+│   │   │   │   ├── bolt.png
+│   │   │   │   ├── key.png
+│   │   │   │   ├── player_head.png
+│   │   │   │   ├── skull.png
+│   │   │   │   └── skull_and_crossbones.png
+│   │   │   ├── inventory.png
+│   │   │   ├── inventory_highlighted.png
+│   │   │   ├── shadow.png
+│   │   │   ├── side_bar.png
+│   │   │   ├── text_input
+│   │   │   │   ├── ratio1-1.0.png
+│   │   │   │   ├── ratio1-2.0.png
+│   │   │   │   ├── ratio1-3.0.png
+│   │   │   │   └── ratio1-6.0.png
+│   │   │   ├── tunnel_h.png
+│   │   │   ├── tunnel_v.png
+│   │   │   └── underground_background.png
+│   │   ├── player
+│   │   │   ├── RoguePlayer_GUIDE.png
+│   │   │   └── main.png
+│   │   └── squares
+│   │       ├── air.png
+│   │       ├── door_right.png
+│   │       ├── door_up.png
+│   │       ├── ground.png
+│   │       ├── keyhole_wall.png
+│   │       ├── ladder.png
+│   │       ├── mechanical_door_right.png
+│   │       ├── mechanical_door_right_base.png
+│   │       ├── mechanical_door_right_overlay_button.png
+│   │       ├── mechanical_door_right_overlay_keyhole.png
+│   │       ├── mechanical_door_up_base.png
+│   │       ├── mechanical_door_up_overlay_button.png
+│   │       ├── mechanical_door_up_overlay_keyhole.png
+│   │       ├── objective_door_right.png
+│   │       ├── objective_door_up.png
+│   │       ├── plain_button_down.png
+│   │       ├── plain_button_down_rim.png
+│   │       ├── plain_button_up.png
+│   │       ├── plain_button_up_rim.png
+│   │       ├── plain_lever_flicked.png
+│   │       ├── plain_lever_flicked_rim.png
+│   │       ├── plain_lever_unflicked.png
+│   │       ├── plain_lever_unflicked_rim.png
+│   │       ├── rock.png
+│   │       └── vase.png
+│   ├── audio
+│   │   └── squares
+│   │       └── door_toggling.mp3
+│   └── fonts
+│       ├── normal.ttf
+│       └── title.ttf
+├── classes
+│   ├── entities
+│   │   ├── enemies
+│   │   │   └── goblin.py
+│   │   ├── enemy.py
+│   │   └── moveable_squares
+│   │       └── crate.py
+│   ├── entity.py
+│   ├── global_data.py
+│   ├── item.py
+│   ├── items
+│   │   ├── items.py
+│   │   └── living_item.py
+│   ├── menu.py
+│   ├── objective_icon.py
+│   ├── player.py
+│   ├── room.py
+│   ├── special_squares
+│   │   ├── button.py
+│   │   ├── door.py
+│   │   ├── keyhole_wall.py
+│   │   ├── ladder.py
+│   │   ├── lever.py
+│   │   ├── mechanical_door.py
+│   │   └── objective_door.py
+│   └── square.py
+├── compile_to_text.py
+├── data
+│   ├── account_games
+│   │   ├── 1_games
+│   │   │   └── 0_levels
+│   │   │       ├── rooms_-1
+│   │   │       │   ├── 1.json
+│   │   │       │   ├── 2.json
+│   │   │       │   ├── 3.json
+│   │   │       │   ├── 4.json
+│   │   │       │   ├── 5.json
+│   │   │       │   ├── layout.json
+│   │   │       │   └── player.json
+│   │   │       ├── rooms_0
+│   │   │       │   ├── 1.json
+│   │   │       │   ├── 10.json
+│   │   │       │   ├── 11.json
+│   │   │       │   ├── 2.json
+│   │   │       │   ├── 3.json
+│   │   │       │   ├── 4.json
+│   │   │       │   ├── 5.json
+│   │   │       │   ├── 6.json
+│   │   │       │   ├── 7.json
+│   │   │       │   ├── 8.json
+│   │   │       │   ├── 9.json
+│   │   │       │   ├── layout.json
+│   │   │       │   └── player.json
+│   │   │       └── rooms_1
+│   │   │           ├── 1.json
+│   │   │           ├── 10.json
+│   │   │           ├── 11.json
+│   │   │           ├── 2.json
+│   │   │           ├── 3.json
+│   │   │           ├── 4.json
+│   │   │           ├── 5.json
+│   │   │           ├── 6.json
+│   │   │           ├── 7.json
+│   │   │           ├── 8.json
+│   │   │           ├── 9.json
+│   │   │           ├── layout.json
+│   │   │           └── player.json
+│   │   └── default_games
+│   │       └── default_levels
+│   │           ├── rooms_-1
+│   │           │   ├── 1.json
+│   │           │   ├── 2.json
+│   │           │   ├── 3.json
+│   │           │   ├── 4.json
+│   │           │   ├── 5.json
+│   │           │   ├── layout.json
+│   │           │   └── player.json
+│   │           ├── rooms_0
+│   │           │   ├── 1.json
+│   │           │   ├── 10.json
+│   │           │   ├── 11.json
+│   │           │   ├── 2.json
+│   │           │   ├── 3.json
+│   │           │   ├── 4.json
+│   │           │   ├── 5.json
+│   │           │   ├── 6.json
+│   │           │   ├── 7.json
+│   │           │   ├── 8.json
+│   │           │   ├── 9.json
+│   │           │   ├── layout.json
+│   │           │   └── player.json
+│   │           └── rooms_1
+│   │               ├── 1.json
+│   │               ├── 10.json
+│   │               ├── 11.json
+│   │               ├── 2.json
+│   │               ├── 3.json
+│   │               ├── 4.json
+│   │               ├── 5.json
+│   │               ├── 6.json
+│   │               ├── 7.json
+│   │               ├── 8.json
+│   │               ├── 9.json
+│   │               ├── layout.json
+│   │               └── player.json
+│   └── player_default.json
+├── accounts copy.json
+├── accounts.json
+├── default_config.json
+├── default_savegame.json
+├── entities
+│   └── enemies
+│       └── goblin.json
+├── squares
+│   ├── default_square.json
+│   └── squares_data.json
+└── functions
+    ├── algorithms
+    │   ├── a_star_pathfind.py
+    │   ├── account_creation.py
+    │   ├── aoeScanner.py
+    │   ├── collision_detection.py
+    │   ├── delete_savegame.py
+    │   ├── entity_lookup.py
+    │   ├── getMovementVector.py
+    │   ├── hashPassword.py
+    │   ├── item_lookup.py
+    │   ├── log_in.py
+    │   └── new_savegame.py
+    └── loops
+        ├── create_account_loop.py
+        ├── credits.py
+        ├── inventory.py
+        ├── log_in_loop.py
+        ├── main_menu.py
+        ├── options.py
+        ├── pause_screen.py
+        ├── savegame_options.py
+        ├── savegames.py
+        └── transition_animation.py
+

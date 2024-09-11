@@ -1,0 +1,12 @@
+{
+    "health": 5,
+    "walk_speed": 2,
+    "run_speed": 4,
+    "max_player_memory_range": [20, 100],
+    "size": [150,150],
+    "collision_box_size": [30, 20],
+    "team": "enemy",
+    "mele_reach": 90,
+    "attack_damage": 4,
+    "attack_cooldown": 30
+}

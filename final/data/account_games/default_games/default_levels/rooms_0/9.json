@@ -1,0 +1,47 @@
+{
+    "id":9,
+    "doors": {
+        "left": {"type": "kill_count", "complete": false, "num": 16, "colour": null},
+        "right": {"type": "empty", "complete": false, "colour": null},
+        "up": {"type": "powered", "complete": false, "colour": [255, 100, 100, 100]},
+        "down": null
+    },
+    "squares": [
+        [1, 1, 1, 1, 7, 7, 1, 1, 1, 1], 
+        [1, 0, 0, 1, {"id":8, "pos": "hbl", "colour": [150, 150, 255, 100]}, {"id":8, "pos": "hbr", "colour": [150, 150, 255, 100]}, 1, 0, 0, 1], 
+        [1, 0, {"id": 6, "colour": [255, 100, 100, 100], "flicked": false}, 1, {"id":8, "pos": "hbl", "colour": [150, 255, 150, 100]}, {"id":8, "pos": "hbr", "colour": [150, 255, 150, 100]}, 1, 0, 0, 1], 
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 1], 
+        [7, 0, 0, 0, 0, 0, 0, 0, 0, 7], 
+        [7, 0, 0, 0, 0, 0, 0, 0, 0, 7], 
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 1], 
+        [1, 0, {"id": 6, "colour": [150, 150, 255, 100], "flicked": false}, 0, 0, 0, 0, {"id": 6, "colour": [150, 255, 150, 100], "flicked": false}, 0, 1], 
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 1], 
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    ],
+    "entities": [
+        {"name": "goblin",
+        "x": 6,
+        "y": 3
+        },
+        {"name": "goblin",
+        "x": 5,
+        "y": 3
+        },
+        {"name": "goblin",
+        "x": 4,
+        "y": 3
+        },
+        {"name": "goblin",
+        "x": 6,
+        "y": 6
+        },
+        {"name": "goblin",
+        "x": 5,
+        "y": 6
+        },
+        {"name": "goblin",
+        "x": 4,
+        "y": 6
+        }
+    ]
+}

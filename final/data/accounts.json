@@ -1,0 +1,121 @@
+[
+    {
+        "UUID": 1,
+        "username": "george",
+        "hashed_password": "FWij^Z'imehZ'Xj8/'j^[P",
+        "display_name": "George",
+        "profileImage": "",
+        "config": {
+            "volume": {
+                "master_volume": 1,
+                "enemy_volume": 0.5,
+                "player_volume": 0.5,
+                "menu_volume": 0.5,
+                "music": 0.5
+            },
+            "key_bindings": {
+                "119": "up",
+                "115": "down",
+                "97": "left",
+                "100": "right",
+                "102": "inventory",
+                "101": "switch_hand",
+                "112": "pause",
+                "49": "main_hand",
+                "50": "off_hand",
+                "32": "boost",
+                "114": "interact",
+                "1073742049": "sprint",
+                "L_CLICK": "attack"
+            },
+            "max_FPS": 30,
+            "mini_map_displayed": true,
+            "inventory_displayed": true,
+            "armour_displayed": true
+        },
+        "savegames": [
+            {
+                "display_details": {
+                    "name": "My New Savegame",
+                    "id": 0,
+                    "level": 0,
+                    "last_save": "05/01/2024, 10:48",
+                    "created": "05/01/2024"
+                }
+            },
+            {
+                "display_details": {
+                    "name": "My Game",
+                    "level": 0,
+                    "last_save": "Not saved",
+                    "created": "25/04/2024",
+                    "id": 1
+                }
+            },
+            {
+                "display_details": {
+                    "name": "Charlie",
+                    "level": 0,
+                    "last_save": "Not saved",
+                    "created": "26/04/2024",
+                    "id": 2
+                }
+            }
+        ]
+    },
+    {
+        "UUID": 2,
+        "username": "shmung",
+        "hashed_password": "kdi^&M]ki&MXj8/&i^cP",
+        "display_name": "shmungy",
+        "profileImage": "",
+        "config": {
+            "volume": {
+                "master_volume": 1,
+                "enemy_volume": 0.5,
+                "player_volume": 0.5,
+                "menu_volume": 0.5,
+                "music": 0.5
+            },
+            "key_bindings": {
+                "119": "up",
+                "115": "down",
+                "97": "left",
+                "100": "right",
+                "102": "inventory",
+                "101": "switch_hand",
+                "1073742049": "sprint",
+                "112": "pause",
+                "49": "main_hand",
+                "50": "off_hand",
+                "32": "boost",
+                "L_CLICK": "attack",
+                "114": "interact"
+            },
+            "max_FPS": 30,
+            "mini_map_displayed": true,
+            "inventory_displayed": true,
+            "armour_displayed": true
+        },
+        "savegames": [
+            {
+                "display_details": {
+                    "name": "new game",
+                    "id": 0,
+                    "level": 0,
+                    "last_save": "10/01/2024, 15:26",
+                    "created": "10/01/2024"
+                }
+            },
+            {
+                "display_details": {
+                    "name": "another savegame",
+                    "id": 1,
+                    "level": 0,
+                    "last_save": "10/01/2024, 15:28",
+                    "created": "10/01/2024"
+                }
+            }
+        ]
+    }
+]

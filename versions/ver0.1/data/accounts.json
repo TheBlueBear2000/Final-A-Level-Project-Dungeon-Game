@@ -1,0 +1,114 @@
+[
+    {
+        "UUID": 1,
+        "username": "george",
+        "hashed_password": "FWij^Z'imehZ'Xj8/'j^[P",
+        "display_name": "George",
+        "profileImage": "",
+        "config": {
+            "volume": {
+                "master_volume": 1,
+                "enemy_volume": 0.5,
+                "player_volume": 0.5,
+                "menu_volume": 0.5,
+                "music": 0.5
+            },
+            "key_bindings": {
+                "main_attack": "L_CLICK",
+                "up": "w",
+                "down": "s",
+                "left": "a",
+                "right": "d",
+                "inventory": "e",
+                "switch_hand": "q",
+                "sprint": "L_SHIFT",
+                "pause": "p",
+                "main_hand": "1",
+                "off_hand": "2",
+                "boost": "SPACE"
+            },
+            "max_FPS": 30,
+            "mini_map_displayed": true,
+            "inventory_displayed": true,
+            "armour_displayed": true
+        },
+        "savegames": [
+            {
+                "display_details": {
+                    "name": "My New Savegame",
+                    "level": 0,
+                    "last_save": "05/01/2024, 10:48",
+                    "created": "05/01/2024"
+                }
+            },
+            {
+                "display_details": {
+                    "name": "George's New Game",
+                    "level": 0,
+                    "last_save": "05/01/2024, 10:49",
+                    "created": "05/01/2024"
+                }
+            },
+            {
+                "display_details": {
+                    "name": "Another Game",
+                    "level": 0,
+                    "last_save": "05/01/2024, 11:20",
+                    "created": "05/01/2024"
+                }
+            }
+        ]
+    },
+    {
+        "UUID": 2,
+        "username": "shmung",
+        "hashed_password": "kdi^&M]ki&MXj8/&i^cP",
+        "display_name": "shmungy",
+        "profileImage": "",
+        "config": {
+            "volume": {
+                "master_volume": 1,
+                "enemy_volume": 0.5,
+                "player_volume": 0.5,
+                "menu_volume": 0.5,
+                "music": 0.5
+            },
+            "key_bindings": {
+                "main_attack": "L_CLICK",
+                "up": "w",
+                "down": "s",
+                "left": "a",
+                "right": "d",
+                "inventory": "e",
+                "switch_hand": "q",
+                "sprint": "L_SHIFT",
+                "pause": "p",
+                "main_hand": "1",
+                "off_hand": "2",
+                "boost": "SPACE"
+            },
+            "max_FPS": 30,
+            "mini_map_displayed": true,
+            "inventory_displayed": true,
+            "armour_displayed": true
+        },
+        "savegames": [
+            {
+                "display_details": {
+                    "name": "new game",
+                    "level": 0,
+                    "last_save": "10/01/2024, 15:26",
+                    "created": "10/01/2024"
+                }
+            },
+            {
+                "display_details": {
+                    "name": "another savegame",
+                    "level": 0,
+                    "last_save": "10/01/2024, 15:28",
+                    "created": "10/01/2024"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,161 @@
+[
+    {
+        "id": 0,
+        "name": "air",
+        "basic": true,
+        "collidable": false,
+        "textures": ["air"],
+        "transparent": true
+    },
+
+    {
+        "id": 1,
+        "name": "rock",
+        "basic": true,
+        "breakable": false,
+        "textures": ["rock"],
+        "size": [1, 1.5],
+        "texture_pos": [0, -0.5]
+    },
+
+        {"id": 2,
+        "name": "vase",
+        "basic": true,
+        "collidable": true,
+        "collision_size": [0.4, 0.4],
+        "break_animation": true,
+        "textures": ["vase"],
+        "strength": 2,
+        "transparent": true,
+        "has_drops": true,
+
+        "drops": [{"rolls": 1,
+                    "total": 5,
+                    "drops": [{
+                        "item": "stick",
+                        "chance": 1
+                        },
+                    {
+                        "item": "long_sword",
+                        "chance": 1
+                        },
+                    {
+                        "item": "metal_axe",
+                        "chance": 1
+                        },
+                    {
+                        "item": "dagger",
+                        "chance": 1
+                        },
+                    {
+                        "item": "mace",
+                        "chance": 1
+                        }]
+                    },
+                    {"rolls": 1,
+                    "total": 9,
+                    "drops": [{
+                        "item": "wood_head",
+                        "chance": 1
+                        },
+                    {
+                        "item": "wood_chest",
+                        "chance": 1
+                        },
+                    {
+                        "item": "wood_feet",
+                        "chance": 1
+                        },
+                    {
+                        "item": "chain_head",
+                        "chance": 1
+                        },
+                    {
+                        "item": "chain_chest",
+                        "chance": 1
+                        },
+                    {
+                        "item": "chain_feet",
+                        "chance": 1
+                        },
+                    {
+                        "item": "metal_head",
+                        "chance": 1
+                        },
+                    {
+                        "item": "metal_chest",
+                        "chance": 1
+                        },
+                    {
+                        "item": "metal_feet",
+                        "chance": 1
+                        }
+                    ]
+                    }
+                ]
+    },
+
+    {
+        "id": 3,
+        "name": "door",
+        "basic": false
+    },
+
+    {
+        "id": 4,
+        "name": "crate",
+        "basic": false
+    },
+
+    {
+        "id": 5,
+        "name": "button",
+        "basic": false
+    },
+
+    {
+        "id": 6,
+        "name": "lever",
+        "basic": false
+    },
+
+    {
+        "id": 7,
+        "name": "non_navigable_air",
+        "basic": true,
+        "collidable": true,
+        "collision_size": [0,0],
+        "textures": ["air"]
+    },
+
+    {
+        "id": 8,
+        "name": "mechanical_door",
+        "basic": false
+    },
+
+    {
+        "id": 9,
+        "name": "objective_door",
+        "basic": false
+    },
+
+    {
+        "id": 10,
+        "name": "ladder",
+        "basic": false
+    },
+
+    {
+        "id": 11,
+        "name": "keyhole_door",
+        "basic": false
+    },
+
+    {
+        "id": 12,
+        "name": "keyhole_wall",
+        "basic": false
+    }
+
+]

@@ -1,0 +1,33 @@
+{
+    "max_health": 30,
+    "health": 30,
+    "x": null,
+    "y": null,
+    "current_room": 1,
+    "direction": "down",
+    "speed": 6,
+    "push_pull_speed": 3,
+    "max_sprint_stamina": 45,
+    "sprint_stamina": 45,
+    "max_boost_time": 75,
+    "boost_cooldown": 75,
+    "boost_speed": 8,
+
+    "mele_reach": 50,
+    "mele_push_strength": 30,
+    "attack_damage": 1,
+    "max_attack_cooldown": 5,
+
+    "inventory": [
+        null, null, 
+        null, null, null, 
+        null, null, null, 
+        null, null, null,
+        null, null, null
+        ],
+
+    "holding_main_hand": true,
+
+    "kills": 0
+
+}
